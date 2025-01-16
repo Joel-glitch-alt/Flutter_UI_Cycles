@@ -95,7 +95,8 @@ class _MyBodyState extends State<MyBody> {
             children: [
               Container(
                 height: 60,
-                width: 305,
+                width: MediaQuery.of(context).size.width *
+                    0.7, // Adjusts width based on screen size
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -108,7 +109,7 @@ class _MyBodyState extends State<MyBody> {
                   ),
                 ),
               ),
-              SizedBox(width: 30),
+              SizedBox(width: 40),
               GestureDetector(
                 onTap: () {
                   setState(() {
