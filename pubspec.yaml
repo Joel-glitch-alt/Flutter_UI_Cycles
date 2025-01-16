@@ -14,6 +14,7 @@ dependencies:
   google_fonts: ^6.2.1
   lottie: ^3.3.0
   im_stepper: ^1.0.1+1
+  bg_vertical_stepper: ^1.0.2
 
 dev_dependencies:
   flutter_test:
@@ -32,6 +33,9 @@ flutter_launcher_icons:
   adaptive_icon_background: "#ffffff" # Optional for adaptive Android icons
   adaptive_icon_foreground: "assets/icon/play.png" # Optional for adaptive Android icons
   min_sdk_android: 21
+  
 
 flutter:
   uses-material-design: true
+ 
+

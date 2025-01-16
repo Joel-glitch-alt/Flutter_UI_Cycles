@@ -14,6 +14,8 @@ class MyApp extends StatelessWidget {
       title: 'Calculatorr',
       debugShowCheckedModeBanner: false,
       home: ParcelTracker(),
+      //Body()
+      //Loan()
     );
   }
 }

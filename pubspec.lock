@@ -25,6 +25,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
+  bg_vertical_stepper:
+    dependency: "direct main"
+    description:
+      name: bg_vertical_stepper
+      sha256: d8e2012002963d62569ab62002677e3abdcf7076b11f286a43af216f055b8381
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
   boolean_selector:
     dependency: transitive
     description:
